@@ -6,7 +6,7 @@ import * as path from "path"
 import __dirname from "./utils.js"
 import ProductManager from "./controllers/ProductManager.js"
 import { Server } from 'socket.io'
-import viewsRouter from "./router/view.routes.js"
+import viewsRouter from "./router/views.routes.js"
 
 const app = express()
 const PORT = 8080;
